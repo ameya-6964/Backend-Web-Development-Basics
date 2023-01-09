@@ -1,9 +1,12 @@
-const express = require('express')
+const express = require('express');
+const path = require('path');
 const app = express()
+app.set('view engine', 'ejs');
+app.set('views' , path.join(__dirname,'views'))
 const port = 8000
 
 app.get('/', (req, res) => {
-  res.send("<h1> Hey I Am Home Page </h1>")
+  return res.render('home');
 })
 
 app.get('/profile', (req, res) => {
