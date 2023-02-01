@@ -16,3 +16,11 @@ const int = setInterval(() => {
 
 //! Set Time Out Function Will Only Run Once
 //! Set Interval Function Will Run After Specified Time Its Non Ending Block Of Code
+
+console.log(__dirname);
+console.log(__filename);
+
+/*
+C:\Users\belva\OneDrive\Desktop\Backend Web Development Workspace\basics
+C:\Users\belva\OneDrive\Desktop\Backend Web Development Workspace\basics\global.js 
+*/
